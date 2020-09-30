@@ -87,8 +87,6 @@ static int keybind = 0;
 float delays[32]{ };
 bool toggled = false;
 float next_random_delay = 0.0f;
-bool b_first_click;
-bool b_mouse_down;
 int cuzinho = 88;
 
 void theTime() {
