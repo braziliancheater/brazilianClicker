@@ -1,42 +1,24 @@
-# brazilianClicker
+# brazilianclicker 2017 
 
-Alright so this is one of my first autoclickers made way back on 201something, i found it today while cleaning my old hdd so i decided to release it here as i dont have any reasons to keep it private.<br/>
+Esse e um projeto que eu tinha a muito tempo guardado no meu HD, eu tinha uns planos de deixar publico no começo do ano passado mais por vergonha da porcaria que eu escrevi resolvi deixar privado mesmo. Esse autoclicker não tem nada de mais mesmo mesmo, e so mais um clicker de 2017.<br/>
 
 ![demo-brazilian](https://i.imgur.com/PzeXGxx.gif)
 
-## OK then! tf does it have?
+## O que tem?
 
-1. shitty AntiDump() basically closes any debuger window, got the idea from csgo loaders.
-2. xor
-3. made the code a bit more readable and added some extra files.
-4. a checker to see if Minecraft is open
-5. made it look cooler! :sunglasses: and added a few new infomation for the final user!
-6. a random name each time you open the clicker
-7. select any delay between clicks
-8. commented all the code so newbies can understand what is going on.
+1. Tem um "projeto" de AntiDump() que e uma merda mais pode ser usado ai por alguem que ache interessante o negócio.
+2. Usa xor, por algum motivo era legal usar essa bibliteca.
+3. Tem bastante descrição do que as coisas fazem, util pra quem quer ver como funciona.
+4. Bastante informação na tela util pra gameplay em si.
+5. Da pra escolher um delay entre os cliques quando você abrir pela primeira vez.
  
-do i plan on updating this? **no**.<br/>
-if you are looking for any maintained projects check [empty-clicker](https://github.com/martin3lli/emptyclicker) or [clicker](https://github.com/b1scoito/clicker)
+Como e so um release e codigo merda eu não pretendo atualizar isso.<br/>
+se você quiser ver como um clicker muito bom funciona da uma olhada nesse do biscoito: [clicker](https://github.com/b1scoito/clicker)
 
-## how to install it?
+## Como compilar?
 
-in order to start coding just download the repo using the green button up there and open fr.sln <br/>
-![retard1](https://i.imgur.com/ch5xLNo.png)<br/>
-you obviously need vs2019 or smt like that <br/>
-if you have any problems google it 
-
-you will probaly need this too - https://aka.ms/vs/16/release/vc_redist.x64.exe
-
-i probaly made a compiled version of this too so you dont need to fix the code. check Releases
-
-## thanks
-
-to stackoverflow for 60% of this
-to [latencyX](https://github.com/martin3lli) for some of the code
-
-## dislamer
-
-You CANNOT use this code to make any paid application.<br/>
-the autoclicker is also pretty bad so i dont recomend using this, unless you fix it or smt. it may be safe to use on no anticheat servers like hypixel or mushmc <br/>
-if any of the guys that i skidded code wants me to remove it please contact me.
-pce
+Primeiramente tenha o Visual Studio Community funcionando certinho pra c++ e afins, ai e so abrir o fr.sln e ser feliz<br/><br/>
+![retard1](https://i.imgur.com/ch5xLNo.png)<br/><br/>
+qualquer problema por favor procura na net. <br/>
+caso ele de erro de VS140MS DLL ou alguma merda assim e so instalar o vc_redist - https://aka.ms/vs/16/release/vc_redist.x64.exe<br/><br/>
+*tem uma versão ja compilada la em releases qualquer coisa da uma olhada la.*
