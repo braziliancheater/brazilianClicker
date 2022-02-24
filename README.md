@@ -1,24 +1,22 @@
-# brazilianclicker 2017 
+# brazilianclicker - 2017 
 
-Esse e um projeto que eu tinha a muito tempo guardado no meu HD, eu tinha uns planos de deixar publico no começo do ano passado mais por vergonha da porcaria que eu escrevi resolvi deixar privado mesmo. Esse autoclicker não tem nada de mais mesmo mesmo, e so mais um clicker de 2017.<br/>
+esse e so um dump do projeto que eu tinha guardado no hd e achei a um tempo atras, fez parte de um projeto para aprendizado mesmo e por isso não contem nada de mais,
+ os metodos usados para emular clicks e o tempo de execução do loop são extremamente defasados e eu recomendo não aprender com o mesmos.
 
 ![demo-brazilian](https://i.imgur.com/PzeXGxx.gif)
 
-## O que tem?
+## o que tem?
 
-1. Tem um "projeto" de AntiDump() que e uma merda mais pode ser usado ai por alguem que ache interessante o negócio.
-2. Usa xor, por algum motivo era legal usar essa bibliteca.
-3. Tem bastante descrição do que as coisas fazem, util pra quem quer ver como funciona.
-4. Bastante informação na tela util pra gameplay em si.
-5. Da pra escolher um delay entre os cliques quando você abrir pela primeira vez.
+1. tem um "projeto" de AntiDump() que so procura por janelas recem abertas.
+2. usa xor para encriptar string no runtime.
+3. tem bastante descrição do que as coisas fazem, util pra quem quer ver como funciona.
+4. o maximo possivel de informações em uma tela só.
+5. da pra escolher um delay entre os cliques quando você abrir pela primeira vez.
  
-Como e so um release e codigo merda eu não pretendo atualizar isso.<br/>
+esse projeto e so um release do source que eu tinha aqui no hd então não pretendo atualizar.<br/>
 se você quiser ver como um clicker muito bom funciona da uma olhada nesse do biscoito: [clicker](https://github.com/b1scoito/clicker)
 
-## Como compilar?
+## outros
 
-Primeiramente tenha o Visual Studio Community funcionando certinho pra c++ e afins, ai e so abrir o fr.sln e ser feliz<br/><br/>
-![retard1](https://i.imgur.com/ch5xLNo.png)<br/><br/>
-qualquer problema por favor procura na net. <br/>
-caso ele de erro de VS140MS DLL ou alguma merda assim e so instalar o vc_redist - https://aka.ms/vs/16/release/vc_redist.x64.exe<br/><br/>
+caso ele de erro de VS140MS DLL e so instalar o vc_redist e reinciar o pc - https://aka.ms/vs/16/release/vc_redist.x64.exe<br/><br/>
 *tem uma versão ja compilada la em releases qualquer coisa da uma olhada la.*
